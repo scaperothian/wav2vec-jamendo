@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "jamendo"
+version = "0.1.0"
+description = "Evaluation of Jamendo dataset."
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+numpy = "^1.26.4"
+matplotlib = "^3.8.3"
+seaborn = "^0.13.2"
+librosa = "^0.10.1"
+configparser = "^6.0.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
